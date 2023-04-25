@@ -5,7 +5,7 @@ Il s'agit d'un projet de 2ème année de l'ENSAE Paris dans le cadre du cours de
 Les Log-linear models s'appliquent à un vecteur prenant ses valeurs dans $\{0,1\}^d$.
 La probabilité d'observer un certian x est telle que (pour un modèle restraint à un ordre 2 d'intéractions) :
 
-> ${log P(X=x) = \alpha + \sum_{i=1}^n \beta_i x_i + \sum_{i<j}^n \gamma_{ij} x_i x_j}$ 
+$ log P(X=x) = \alpha + \sum_{i=1}^n \beta_i x_i + \sum_{i<j}^n \gamma_{ij} x_i x_j $  
 
 
 - La question 1. s'intéresse à générer des données à partir des paramètres $\beta$ et $\gamma$ fixés. 
